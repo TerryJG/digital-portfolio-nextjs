@@ -1,0 +1,22 @@
+/* Enable vertical scrolling */
+.scroll {
+  overflow-y: scroll;
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  width: 8px;
+}
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background-color: #202020;
+  border-radius: 1px;
+  -webkit-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background-color: #212529;
+  -webkit-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}/*# sourceMappingURL=scrollbar.css.map */

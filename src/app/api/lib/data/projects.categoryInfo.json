@@ -1,0 +1,149 @@
+[
+  {
+    "_id": {
+      "$oid": "6641d0295115f5281596ec9d"
+    },
+    "isArchived": false,
+    "title": "Toastmasters",
+    "abbreviatedTitle": "Toastmasters",
+    "slug": "toastmasters",
+    "primaryColor": "#fff",
+    "accentColor": "#781028",
+    "description": "Promotional flyers and videos created for Luminaries Toastmasters #1510789, a Toastmasters group founded in Nassau, Bahamas...............",
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/toastmasters/tost-logo.webp",
+    "fallbackImgSrc": "",
+    "lastUpdated": "2022-01-29"
+  },
+  {
+    "_id": {
+      "$oid": "6641d0fa5115f5281596eca0"
+    },
+    "isArchived": false,
+    "title": "ChallengeCentric",
+    "abbreviatedTitle": "ChallengeCentric",
+    "slug": "challenge-centric",
+    "primaryColor": "#fff",
+    "accentColor": "#58318c",
+    "description": "ChallengeCentric is an online-branded YouTube channel centered on publishing content about MTV's sports-reality TV show, The Challenge. For ChallengeCentric, its content embodies the motto 'RAW. RIVETING. REAL.' through bold typography.",
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/challenge-centric/chce-logo.webp",
+    "fallbackImgSrc": "",
+    "lastUpdated": "2023-03-25"
+  },
+  {
+    "_id": {
+      "$oid": "6641d1fc5115f5281596eca3"
+    },
+    "isArchived": false,
+    "title": "Sounds of Africa: We've Come This Far",
+    "abbreviatedTitle": "Sounds of Africa: We've Come This Far",
+    "slug": "sounds-of-africa",
+    "primaryColor": "#fff",
+    "accentColor": "#fd8550",
+    "description": "'Sounds of Africa: We've Come This Far is a cultural musical performance held in Nassau, Bahamas that features a diverse selection of songs sung in South African languages.",
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/sounds-of-africa/sofa-logo.webp",
+    "fallbackImgSrc": "",
+    "lastUpdated": "2023-07-15"
+  },
+  {
+    "_id": {
+      "$oid": "6641d2d85115f5281596eca6"
+    },
+    "isArchived": false,
+    "title": "Apple Music Cover Art",
+    "abbreviatedTitle": "Apple Music Cover Art",
+    "slug": "apple-music-covers",
+    "primaryColor": "#fff",
+    "accentColor": "#a7132c",
+    "description": "A collection of cover art showcasing both local and international artists, inspired by the design aesthetic of Apple Music's 'Browse Categories' section.",
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/apple-music/apmu-logo.webp",
+    "fallbackImgSrc": "",
+    "lastUpdated": "2023-11-10"
+  },
+  {
+    "_id": {
+      "$oid": "6641d24e5115f5281596eca4"
+    },
+    "isArchived": false,
+    "title": "Behold, the Lamb",
+    "abbreviatedTitle": "Behold, the Lamb",
+    "slug": "behold-the-lamb",
+    "primaryColor": "#fff",
+    "accentColor": "#f98d12",
+    "description": "'Behold, the Lamb', is a special production hosted by Centreville SDA church, located in Nassau Bahamas. Using music, skits, and supplementary visuals, it creatively tells the story of Jesus Christ, from birth to resurrection.",
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/behold-the-lamb/behd-logo.webp",
+    "fallbackImgSrc": "",
+    "lastUpdated": "2023-12-12"
+  },
+  {
+    "_id": {
+      "$oid": "6641d2a95115f5281596eca5"
+    },
+    "isArchived": false,
+    "title": "Reinvigorate!",
+    "abbreviatedTitle": "Reinvigorate!",
+    "slug": "reinvigorate",
+    "primaryColor": "#fff",
+    "accentColor": "#6384c4",
+    "description": "'Reinvigorate!' is a 2-day seminar hosted by Centreville SDA Church's Single Adult Ministries, based in Nassau, Bahamas. This event flyer aims to attract attendees through bold text and vibrant visuals. ",
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/reinvigorate/sdam-logo.webp",
+    "fallbackImgSrc": "",
+    "lastUpdated": "2024-03-12"
+  },
+  {
+    "_id": {
+      "$oid": "6641d1265115f5281596eca1"
+    },
+    "isArchived": false,
+    "title": "Foundation of Tri-athletes Incorporated",
+    "abbreviatedTitle": "Foundation of Tri-athletes",
+    "slug": "foundation-of-triathletes",
+    "primaryColor": "#fff",
+    "accentColor": "#00c182",
+    "description": "The Foundation of Tri-athletes Incorperated is an exercise club located in Nassau, Bahamas, dedicated on maintaining physical well-being and healthy dietary habits. Promotional flyers and website feature visually bright and consistent design styles to communicate the club's primary objective - healthy living.",
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/foundation-of-triathletes/fota-logo-color.webp",
+    "fallbackImgSrc": "",
+    "lastUpdated": "2024-04=26"
+  },
+  {
+    "_id": {
+      "$oid": "6742d8800803698006a31360"
+    },
+    "isArchived": false,
+    "title": "World in Union: A Multi-cultural Celebration of Praise and Divine Diversity",
+    "abbreviatedTitle": "World in Union",
+    "slug": "world-in-union",
+    "primaryColor": "#000",
+    "accentColor": "#ebe5c1",
+    "description": "World in Union: A Multi-cultural Celebration of Praise and Divine Diversity is a musical performance presented by United Voices Bahamas. The event is a celebration of cultural diversity and unity expressed through a selection of songs sung in different languages, including Spanish, French, English, and various African languages.",
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/world-in-union/images/winu-keyArt.webp",
+    "fallbackImgSrc": "",
+    "lastUpdated": "2024-07-07"
+  },
+  {
+    "isArchived": false,
+    "title": "The Gift",
+    "abbreviatedTitle": "The Gift",
+    "slug": "the-gift",
+    "primaryColor": "#",
+    "accentColor": "#",
+    "description": "The Gift is...",
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/the-gift/images/theGiftLogo-lowres.webp",
+    "fallbackImgSrc": "",
+    "lastUpdated": "2024-12-15"
+  },
+  {
+    "_id": {
+      "$oid": "6742d8800803698006a31361"
+    },
+    "isArchived": false,
+    "title": "SereneSaver",
+    "abbreviatedTitle": "SereneSaver",
+    "slug": "serene-saver",
+    "description": "SereneSaver is an interactive screensaver and wallpaper display for the web, Android, and iOS devices. This feature-rich application lets you view dynamic image slideshows, watch YouTube videos, and display the current time, all from a customizable interface.",
+    "primaryColor": "#fff",
+    "accentColor": "#18181b",
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/serene-saver/images/sesv-cover.webp",
+    "fallbackImgSrc": "",
+    "lastUpdated": "2025-03-01"
+  }
+]

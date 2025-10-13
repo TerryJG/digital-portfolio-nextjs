@@ -1,0 +1,569 @@
+[
+  {
+    "_id": {
+      "$oid": "6742d08a0803698006a3134c"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Promotional Video",
+    "category": "challenge-centric",
+    "categoryId": {
+      "$oid": "6641d0fa5115f5281596eca0"
+    },
+    "icons": ["sony-vegas-pro"],
+    "data-date": "2020-12-20",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "Channel Teaser | ChallengeCentric",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Video Interview edited for ChallengeCentric",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/thumbnails/chce-channel-trailer.webp",
+    "imgSrcAlt": "ChallengeCentric: Channel Trailer",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/chce-channel-teaser.webm",
+    "videoSrc": "https://youtu.be/4v4o469AJY0",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6742d08a0803698006a3134d"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Video Podcast",
+    "category": "challenge-centric",
+    "categoryId": {
+      "$oid": "6641d0fa5115f5281596eca0"
+    },
+    "icons": ["sony-vegas-pro"],
+    "data-date": "2021-05-12",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "The Challenge: Season 36 Review",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Video review edited for ChallengeCentric",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/thumbnails/chce-season-36-review.webp",
+    "imgSrcAlt": "ChallengeCentric: Season 36 Review",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/chce-the-challenge-season-36-review.webm",
+    "videoSrc": "https://youtu.be/MhusuTWDWpE",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6742d08a0803698006a3134e"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Promotional Video",
+    "category": "toastmasters",
+    "categoryId": {
+      "$oid": "6641d0295115f5281596ec9d"
+    },
+    "icons": ["sony-vegas-pro"],
+    "data-date": "2021-10-23",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "Light Tales, Luminaries to the World",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Promotional Video for Luminaries Toastmasters's open house",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/toastmasters/videos/thumbnails/tost-open-house-meeting.webp",
+    "imgSrcAlt": "Toastmasters Open House Meeting",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/toastmasters/videos/tost-open-house-meeting.webm",
+    "videoSrc": "https://youtu.be/fwhLNXqNTeU",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6742d08a0803698006a3134f"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Interview",
+    "category": "challenge-centric",
+    "categoryId": {
+      "$oid": "6641d0fa5115f5281596eca0"
+    },
+    "icons": ["hitfilm-express"],
+    "data-date": "2021-12-25",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "MTV: The Challenge Interview w/ Brandon Nelson",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Video Interview edited for ChallengeCentric",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/thumbnails/chce-brandon-interview.webp",
+    "imgSrcAlt": "ChallengeCentric: Brandon Interview",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/chce-brandon-interview.webm",
+    "videoSrc": "https://youtu.be/-21NWQnOSac",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6742d08a0803698006a31350"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Editorial",
+    "category": "challenge-centric",
+    "categoryId": {
+      "$oid": "6641d0fa5115f5281596eca0"
+    },
+    "icons": ["sony-vegas-pro"],
+    "data-date": "2022-01-13",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "MTV's The Challenge: Battle of the Zodiac - Fantasy Season & Cast",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Fantasy Video edited for ChallengeCentric",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/thumbnails/chce-battle-of-zodiac.webp",
+    "imgSrcAlt": "ChallengeCentric: Battle of the Zodiac Interview",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/chce-battle-of-the-zodiac.webm",
+    "videoSrc": "https://youtu.be/eWuaxBkP_MU",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6742d08a0803698006a31351"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Interview",
+    "category": "challenge-centric",
+    "categoryId": {
+      "$oid": "6641d0fa5115f5281596eca0"
+    },
+    "icons": ["sony-vegas-pro"],
+    "data-date": "2022-02-04",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "MTV: The Challenge Interview w/ Ayanna (Mackins) Free",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Video Interview edited for ChallengeCentric",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/thumbnails/chce-ayanna-interview.webp",
+    "imgSrcAlt": "ChallengeCentric: Ayanna Interview",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/chce-ayanna-interview.webm",
+    "videoSrc": "https://youtu.be/SyBgcFM9ebc",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6742d08a0803698006a31352"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Interview",
+    "category": "challenge-centric",
+    "categoryId": {
+      "$oid": "6641d0fa5115f5281596eca0"
+    },
+    "icons": ["sony-vegas-pro"],
+    "data-date": "2022-03-27",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "MTV: The Challenge Interview w/ Laterrian Wallace",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Video Interview edited for ChallengeCentric",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/thumbnails/chce-laterrian-interview.webp",
+    "imgSrcAlt": "ChallengeCentric: Laterrian Interview",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/chce-laterrian-interview.webm",
+    "videoSrc": "https://youtu.be/F166_4NvT9s",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6742d08a0803698006a31353"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Interview",
+    "category": "challenge-centric",
+    "categoryId": {
+      "$oid": "6641d0fa5115f5281596eca0"
+    },
+    "icons": ["sony-vegas-pro"],
+    "data-date": "2022-06-22",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "MTV: The Challenge Interview w/ Teck Holmes",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Video Interview edited for ChallengeCentric",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/thumbnails/chce-teck-interview.webp",
+    "imgSrcAlt": "ChallengeCentric: Teck Interview",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/chce-teck-interview.webm",
+    "videoSrc": "https://youtu.be/g-AO9D-thOw",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6742d08a0803698006a31354"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Interview",
+    "category": "challenge-centric",
+    "categoryId": {
+      "$oid": "6641d0fa5115f5281596eca0"
+    },
+    "icons": ["adobe-premiere-pro"],
+    "data-date": "2022-06-29",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "MTV: The Challenge Interview w/ Paulie Calafiore",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Video Interview edited for ChallengeCentric",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/thumbnails/chce-paulie-interview.webp",
+    "imgSrcAlt": "ChallengeCentric: Paulie Interview",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/chce-paulie-interview.webm",
+    "videoSrc": "https://youtu.be/veFvQmyCmDo",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6742d08a0803698006a31355"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Interview",
+    "category": "challenge-centric",
+    "categoryId": {
+      "$oid": "6641d0fa5115f5281596eca0"
+    },
+    "icons": ["adobe-premiere-pro"],
+    "data-date": "2022-07-13",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "MTV: The Challenge Interview w/ Nia Moore",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Video Interview edited for ChallengeCentric",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/thumbnails/chce-nia-interview.webp",
+    "imgSrcAlt": "ChallengeCentric: Nia Interview",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/chce-nia-interview.webm",
+    "videoSrc": "https://youtu.be/5hhDUHRa2Pw",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6742d08a0803698006a31356"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Interview",
+    "category": "challenge-centric",
+    "categoryId": {
+      "$oid": "6641d0fa5115f5281596eca0"
+    },
+    "icons": ["adobe-premiere-pro"],
+    "data-date": "2023-02-12",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "MTV: The Challenge Interview w/ Olivia Kaiser",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Video Interview edited for ChallengeCentric",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/thumbnails/chce-olivia-interview.webp",
+    "imgSrcAlt": "ChallengeCentric: Olivia Interview",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/chce-olivia-interview.webm",
+    "videoSrc": "https://youtu.be/6FFY0oOFVBA",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6742d08a0803698006a31357"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Interview",
+    "category": "challenge-centric",
+    "categoryId": {
+      "$oid": "6641d0fa5115f5281596eca0"
+    },
+    "icons": ["adobe-premiere-pro"],
+    "data-date": "2023-02-25",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "MTV: The Challenge Interview w/ Horacio Gutiérrez Jr.",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Video Interview edited for ChallengeCentric",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/thumbnails/chce-horatio-interview.webp",
+    "imgSrcAlt": "ChallengeCentric: Horatio Interview",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/challenge-centric/videos/chce-horacio-interview.webm",
+    "videoSrc": "https://youtu.be/u0SRcMPKhKM",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6742d08a0803698006a31358"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Interview",
+    "category": "sounds-of-africa",
+    "categoryId": {
+      "$oid": "6641d1fc5115f5281596eca3"
+    },
+    "icons": ["adobe-premiere-pro"],
+    "data-date": "2023-07-15",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "Choir Interview",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Sounds of Africa: We've Come This Far",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/sounds-of-africa/videos/thumbnails/sofa-meet-the-choir.webp",
+    "imgSrcAlt": "Sounds of Africa: Meet the Choir",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/sounds-of-africa/videos/sofa-full%20choir%20interview.webm",
+    "videoSrc": "https://www.youtube.com/watch?v=_jUtAJL7zLo",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6742d08a0803698006a31359"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Motion Graphics",
+    "category": "sounds-of-africa",
+    "categoryId": {
+      "$oid": "6641d1fc5115f5281596eca3"
+    },
+    "icons": ["adobe-premiere-pro"],
+    "data-date": "2023-07-15",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "Animated Logo Loop",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Animated logo loop for Sounds of Africa: We've Come This Far",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/sounds-of-africa/videos/thumbnails/sofa-logo-loop.webp",
+    "imgSrcAlt": "Sounds of Africa Animated Loop",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/sounds-of-africa/videos/sofa-logo-loop.webm",
+    "videoSrc": "https://youtu.be/OmaoPSLSNoM",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6742d08a0803698006a3135a"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Motion Graphics",
+    "category": "behold-the-lamb",
+    "categoryId": {
+      "$oid": "6641d24e5115f5281596eca4"
+    },
+    "icons": ["adobe-premiere-pro"],
+    "data-date": "2023-12-23",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "Adam and Eve Illustration",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Complimentary assets for Behold, The Lamb",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/behold-the-lamb/videos/thumbnails/behd-adam-and-eve.webp",
+    "imgSrcAlt": "Adam and Eve",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/behold-the-lamb/videos/behd-adam-and-eve.webm",
+    "videoSrc": "https://youtu.be/Yvy5IXB32Wc",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6742d08a0803698006a3135b"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Promotion Video",
+    "category": "behold-the-lamb",
+    "categoryId": {
+      "$oid": "6641d24e5115f5281596eca4"
+    },
+    "icons": ["adobe-after-effects"],
+    "data-date": "2023-12-23",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "Behold, The Lamb",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Official video promo for 'Behold, The Lamb', a special production held at Centreville SDA Church, Nassau, Bahamas",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/behold-the-lamb/videos/thumbnails/behd-video-promo.webp",
+    "imgSrcAlt": "Behold, The Lamb Promo",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/behold-the-lamb/videos/behd-promo-video.webm",
+    "videoSrc": "https://youtu.be/LhrvW305fgY",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6742d08a0803698006a3135c"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Motion Graphics",
+    "category": "behold-the-lamb",
+    "categoryId": {
+      "$oid": "6641d24e5115f5281596eca4"
+    },
+    "icons": ["adobe-premiere-pro"],
+    "data-date": "2023-12-23",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "Moses and the Burning Bush Illustration",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Complimentary assets for Behold, The Lamb",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/behold-the-lamb/videos/thumbnails/behd-moses-and-the-burning-bush.webp",
+    "imgSrcAlt": "Moses and the Burning Bush",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/behold-the-lamb/videos/behd-moses-and-the-burning-bush.webm",
+    "videoSrc": "https://youtu.be/YOSgjhF0-O4",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6742d08a0803698006a3135d"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Motion Graphics",
+    "category": "behold-the-lamb",
+    "categoryId": {
+      "$oid": "6641d24e5115f5281596eca4"
+    },
+    "icons": ["adobe-premiere-pro"],
+    "data-date": "2023-12-23",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "Old Temple in Jerusalem Illustration",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Complimentary assets for Behold, The Lamb",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/behold-the-lamb/videos/thumbnails/behd-old-temple.webp",
+    "imgSrcAlt": "Old Temple in Jerusalem",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/behold-the-lamb/videos/behd-temple-in-jerusalem.webm",
+    "videoSrc": "https://youtu.be/Yvy5IXB32Wc",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "67461a0b3e8c733b0eedf9a2"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Motion Graphics",
+    "category": "world-in-union",
+    "categoryId": {
+      "$oid": "6742d8800803698006a31360"
+    },
+    "icons": ["adobe-after-effects"],
+    "data-date": "2024-07-07",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "World in Union Key Art Background Animation",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Key Art Background Animation for World in Union: A Multi-cultural Celebration of Praise and Divine Diversity",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/world-in-union/images/winu-keyArt.webp",
+    "imgSrcAlt": "World in Union Key Art",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/world-in-union/videos/winu-keyArt-animation.webm",
+    "videoSrc": "https://youtu.be/X-_YRkewzZ0",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "67461a0b3e8c733b0eedf9a3"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Motion Graphics",
+    "category": "world-in-union",
+    "categoryId": {
+      "$oid": "6742d8800803698006a31360"
+    },
+    "icons": ["adobe-after-effects"],
+    "data-date": "2024-07-07",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "World in Union Key Art Intro Animation",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Key Art Intro Animation for World in Union: A Multi-cultural Celebration of Praise and Divine Diversity",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/world-in-union/images/winu-keyArt-alt.webp",
+    "imgSrcAlt": "World in Union Key Art",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/world-in-union/videos/winu-keyArt-animation-intro.webm",
+    "videoSrc": "https://youtu.be/P9adyP_Bs_k ",
+    "fallbackVideoSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "67461a0b3e8c733b0eedf9a4"
+    },
+    "dataFancybox": "video-gallery",
+    "contentType": "video",
+    "itemType": "Promotion Video",
+    "category": "world-in-union",
+    "categoryId": {
+      "$oid": "6742d8800803698006a31360"
+    },
+    "icons": ["adobe-premiere-pro"],
+    "data-date": "2024-07-07",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "World in Union Promotional Video",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Promotional video for World in Union: A Multi-cultural Celebration of Praise and Divine Diversity",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/world-in-union/videos/thumbnails/winu-promo-video.webp",
+    "imgSrcAlt": "World in Union Key Art",
+    "fallbackImgSrc": "",
+    "videoPreview": "https://tjg-portfolio-db.vercel.app/world-in-union/videos/winu-promo-video.webm",
+    "videoSrc": "https://youtu.be/yfAfk6rVRl4",
+    "fallbackVideoSrc": ""
+  }
+]

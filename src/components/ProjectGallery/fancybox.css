@@ -1,0 +1,16 @@
+/* Remove iframe padding */
+.fancybox__slide {
+  padding: 2rem 1rem 0 1rem;
+}
+
+.f-caption {
+  right: 0 ;
+  left: auto ;
+  text-align: center ;
+}
+
+.f-html {
+  padding: 1rem;
+  background: none;
+}
+

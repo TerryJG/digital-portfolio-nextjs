@@ -1,0 +1,204 @@
+[{
+  "_id": {
+    "$oid": "68daabfcb1a74632210bae57"
+  },
+  "dataFancybox": "web-gallery",
+  "contentType": "programming",
+  "itemType": "Website",
+  "category": "events",
+  "icons": [
+    "wix",
+    "typescript",
+    "react",
+    "mantine"
+  ],
+  "data-date": "2022-10-01",
+  "isFeatured": true,
+  "isArchived": false,
+  "title": "Concert E-Invite",
+  "subtitle": "",
+  "abbreviatedTitle": "",
+  "description": "Digital E-invite for God Our Only Hope - a live debut performance by Daniel Bostwick.",
+  "details": [],
+  "imgSrc": "https://tjg-portfolio-db.vercel.app/god-our-only-hope/images/gooh-metaimg.webp",
+  "imgSrcAlt": "Concert E-Invite",
+  "fallbackImgSrc": "",
+  "href": "https://god-our-only-hope-einvite.vercel.app/"
+},
+{
+  "_id": {
+    "$oid": "68daabfcb1a74632210bae58"
+  },
+  "dataFancybox": "web-gallery",
+  "contentType": "programming",
+  "itemType": "Website",
+  "category": "foundation-of-triathletes",
+  "categoryId": {
+    "$oid": "6641d1265115f5281596eca1"
+  },
+  "icons": [
+    "wix"
+  ],
+  "data-date": "2023-05-01",
+  "isFeatured": true,
+  "isArchived": false,
+  "title": "The Foundation of Tri-athletes Incorporated Exercise Club",
+  "subtitle": "",
+  "abbreviatedTitle": "",
+  "description": "Official website for The Foundation of Tri-athletes Incorporated, an exercise club in Nassau, Bahamas.",
+  "details": [],
+  "imgSrc": "https://tjg-portfolio-db.vercel.app/foundation-of-triathletes/images/fota-metaimg.webp",
+  "imgSrcAlt": "Foundation of Tri-athletes",
+  "fallbackImgSrc": "",
+  "href": "https://www.thefoundationoftri-athletesinc.com/"
+},
+{
+  "_id": {
+    "$oid": "68daabfcb1a74632210bae59"
+  },
+  "dataFancybox": "web-gallery",
+  "contentType": "programming",
+  "itemType": "Web Application",
+  "category": "world-in-union",
+  "categoryId": {
+    "$oid": "6742d8800803698006a31360"
+  },
+  "icons": [
+    "typescript",
+    "react",
+    "mantine",
+    "express",
+    "mongodb"
+  ],
+  "data-date": "2023-07-22",
+  "isFeatured": true,
+  "isArchived": false,
+  "title": "World in Union Digital E-Program",
+  "subtitle": "",
+  "abbreviatedTitle": "",
+  "description": "Digital E-program for the event, World in Union: A Multi-cultural Celebration of Praise and Divine Diversity, held in Nassau, Bahamas.",
+  "details": [],
+  "imgSrc": "https://tjg-portfolio-db.vercel.app/world-in-union/images/winu-metaimg.webp",
+  "imgSrcAlt": "World in Union E-Program",
+  "fallbackImgSrc": "",
+  "href": "https://world-in-union-program.vercel.app/"
+},
+{
+  "_id": {
+    "$oid": "68daabfcb1a74632210bae5a"
+  },
+  "dataFancybox": "web-gallery",
+  "contentType": "programming",
+  "itemType": "Web Application",
+  "category": "the-gift",
+  "icons": [
+    "typescript",
+    "react",
+    "shadcn",
+    "express",
+    "mongodb"
+  ],
+  "data-date": "2024-12-15",
+  "isFeatured": true,
+  "isArchived": false,
+  "title": "The Gift Digital E-Program",
+  "subtitle": "",
+  "abbreviatedTitle": "",
+  "description": "Digital E-program for the event, The Gift, held in Nassau, Bahamas.",
+  "details": [],
+  "imgSrc": "https://tjg-portfolio-db.vercel.app/the-gift/images/gift-metaimg.webp",
+  "imgSrcAlt": "The Gift E-Program",
+  "fallbackImgSrc": "",
+  "href": "https://the-gift-program.vercel.app/"
+},
+{
+  "_id": {
+    "$oid": "6742ebe70803698006a31370"
+  },
+  "dataFancybox": "web-gallery",
+  "contentType": "programming",
+  "itemType": "Web Application",
+  "category": "serene-saver",
+  "categoryId": {
+    "$oid": "6742d8800803698006a31361"
+  },
+  "icons": [
+    "typescript",
+    "react",
+    "mantine",
+    "shadcn",
+    "express",
+    "mongodb"
+  ],
+  "data-date": "2025-03-01",
+  "isFeatured": true,
+  "isArchived": false,
+  "title": "SereneSaver",
+  "subtitle": "",
+  "abbreviatedTitle": "",
+  "description": "SereneSaver is an interactive screensaver and wallpaper display for the web, Android, and iOS.",
+  "details": [],
+  "imgSrc": "https://tjg-portfolio-db.vercel.app/serene-saver/images/sesv-metaimg.webp",
+  "imgSrcAlt": "SereneSaver",
+  "fallbackImgSrc": "",
+  "href": "https://serenesaver.com/"
+},
+{
+  "_id": {
+    "$oid": "68daabfcb1a74632210bae5b"
+  },
+  "dataFancybox": "web-gallery",
+  "contentType": "programming",
+  "itemType": "Web Application",
+  "category": "sounds-of-africa",
+  "categoryId": {
+    "$oid": "6641d1fc5115f5281596eca3"
+  },
+  "icons": [
+    "typescript",
+    "react",
+    "shadcn",
+    "express",
+    "mongodb"
+  ],
+  "data-date": "2025-07-19",
+  "isFeatured": true,
+  "isArchived": false,
+  "title": "Sounds of Africa (2025) Digital E-Program",
+  "subtitle": "",
+  "abbreviatedTitle": "",
+  "description": "Digital E-program for the event, Sounds of Africa: We've Come This Far - An Exuberant Celebration of Praise, held in Nassau, Bahamas.",
+  "details": [],
+  "imgSrc": "https://tjg-portfolio-db.vercel.app/sounds-of-africa/images/sofa-metaimg.webp",
+  "imgSrcAlt": "Sounds of Africa E-Program",
+  "fallbackImgSrc": "",
+  "href": "https://sounds-of-africa-eprogram.vercel.app/"
+},
+{
+  "_id": {
+    "$oid": "68daabfcb1a74632210bae5c"
+  },
+  "dataFancybox": "web-gallery",
+  "contentType": "programming",
+  "itemType": "Website",
+  "category": "portfolio",
+  "icons": [
+    "typescript",
+    "react",
+    "nextjs",
+    "shadcn",
+    "mongodb"
+  ],
+  "data-date": "2026-01-01",
+  "isFeatured": true,
+  "isArchived": false,
+  "title": "Digital Portfolio",
+  "subtitle": "",
+  "abbreviatedTitle": "",
+  "description": "Online portfolio showcasing a variety of projects using creative and technical software.",
+  "details": [],
+  "imgSrc": "https://tjg-portfolio-db.vercel.app/metaimg.webp",
+  "imgSrcAlt": "Digital Portfolio",
+  "fallbackImgSrc": "",
+  "href": ""
+}]

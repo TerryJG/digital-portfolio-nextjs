@@ -1,0 +1,812 @@
+[
+  {
+    "_id": {
+      "$oid": "6641dca56a9ae2643526641c"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "toastmasters",
+    "categoryId": {
+      "$oid": "6641d0295115f5281596ec9d"
+    },
+    "icons": ["powerpoint"],
+    "data-date": "2021-08-20",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "Toastmasters: Wine Tasting",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Weekly promotional flyer for Luminaries Toastmasters titled 'Wine Tasting",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/toastmasters/images/tost-wine-tasting.webp",
+    "imgSrcAlt": "Toastmasters General Meeting Flyer (Wine Tasting)",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641dca56a9ae2643526641f"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "toastmasters",
+    "categoryId": {
+      "$oid": "6641d0295115f5281596ec9d"
+    },
+    "icons": ["powerpoint"],
+    "data-date": "2021-08-27",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "Toastmasters: Hand Me My Trophy",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Weekly promotional flyer for Luminaries Toastmasters titled 'Hand Me My Trophy'",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/toastmasters/images/tost-hand-me-my-trophy.webp",
+    "imgSrcAlt": "Toastmasters General Meeting Flyer (Hand Me My Trophy)",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641dca56a9ae26435266422"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "toastmasters",
+    "categoryId": {
+      "$oid": "6641d0295115f5281596ec9d"
+    },
+    "icons": ["powerpoint"],
+    "data-date": "2021-09-10",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "Toastmasters: Humor the Pure You",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Weekly promotional flyer for Luminaries Toastmasters titled 'Hand Me My Trophy'",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/toastmasters/images/tost-humor-the-pure-you.webp",
+    "imgSrcAlt": "Toastmasters General Meeting Flyer (Humor the Pure You)",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641dca56a9ae2643526641e"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "toastmasters",
+    "categoryId": {
+      "$oid": "6641d0295115f5281596ec9d"
+    },
+    "icons": ["powerpoint"],
+    "data-date": "2021-10-08",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "Toastmasters: Detox the Pressure",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Weekly promotional flyer for Luminaries Toastmasters",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/toastmasters/images/tost-detox-the-pressure.webp",
+    "imgSrcAlt": "Toastmasters General Meeting Flyer (Detox the Pressure)",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641dca56a9ae26435266421"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "toastmasters",
+    "categoryId": {
+      "$oid": "6641d0295115f5281596ec9d"
+    },
+    "icons": ["powerpoint"],
+    "data-date": "2021-10-15",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "Toastmasters: Rival the Marvels",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Weekly promotional flyer for Luminaries Toastmasters titled 'Rival the Marvels'",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/toastmasters/images/tost-rival-the-marvels.webp",
+    "imgSrcAlt": "Toastmasters General Meeting Flyer (Rival the Marvels)",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641dca56a9ae2643526641b"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "toastmasters",
+    "categoryId": {
+      "$oid": "6641d0295115f5281596ec9d"
+    },
+    "icons": ["powerpoint"],
+    "data-date": "2021-10-23",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "Light Tales, Luminaries to the World",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Promotional flyer for Luminaries Toastmasters's open house",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/toastmasters/images/tost-light-tales-luminaries-to-the-world.webp",
+    "imgSrcAlt": "Toastmasters Light Tales, Luminaries to the World",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641dca56a9ae26435266420"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "toastmasters",
+    "categoryId": {
+      "$oid": "6641d0295115f5281596ec9d"
+    },
+    "icons": ["powerpoint"],
+    "data-date": "2021-12-11",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "Toastmasters: Rush Time",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Weekly promotional flyer for Luminaries Toastmasters titled 'Rush Time'",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/toastmasters/images/tost-rush-time.webp",
+    "imgSrcAlt": "Toastmasters Speech General Meeting Flyer (Rush Time)",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641dca56a9ae2643526641d"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "toastmasters",
+    "categoryId": {
+      "$oid": "6641d0295115f5281596ec9d"
+    },
+    "icons": ["powerpoint"],
+    "data-date": "2022-01-29",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "Toastmasters Speech Competition Flyer",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Promotional flyer for Luminaries Toastmasters's Speech Competition",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/toastmasters/images/tost-speech-competition.webp",
+    "imgSrcAlt": "Toastmasters Speech Competition Flyer",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641e4ef6a9ae2643526646d"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "sounds-of-africa",
+    "categoryId": {
+      "$oid": "6641d1fc5115f5281596eca3"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2023-07-15",
+    "isFeatured": false,
+    "isArchived": true,
+    "title": "Sounds of Africa - Alternate Flyer",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Official flyer for Sounds of Africa: We've Come This Far",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/sounds-of-africa/images/sofa-flyer-alternate.webp",
+    "imgSrcAlt": "Sounds of Africa Flyer (Alternative)",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641e4ef6a9ae26435266470"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "sounds-of-africa",
+    "categoryId": {
+      "$oid": "6641d1fc5115f5281596eca3"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2023-07-15",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "Sounds of Africa Flyer",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Official flyer for Sounds of Africa: We've Come This Far",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/sounds-of-africa/images/sofa-flyer-white.webp",
+    "imgSrcAlt": "Sounds of Africa Flyer (White)",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641e4ef6a9ae2643526646c"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "sounds-of-africa",
+    "categoryId": {
+      "$oid": "6641d1fc5115f5281596eca3"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2023-07-15",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "Sounds of Africa Flyer (Black)",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Official flyer for Sounds of Africa: We've Come This Far",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/sounds-of-africa/images/sofa-flyer-black.webp",
+    "imgSrcAlt": "Sounds of Africa Flyer (Black)",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641e7936a9ae26435266497"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Graphic Design",
+    "category": "apple-music",
+    "categoryId": {
+      "$oid": "6641d2d85115f5281596eca6"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2023-11-10",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "Apple Music: Kamilah Gibson",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Custom Apple Music cover designs inspired by the 'Browse Categories' page",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/apple-music/images/apmu-kamilah.webp",
+    "imgSrcAlt": "Apple Music: Kamilah Gibson",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641e7936a9ae2643526649c"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Graphic Design",
+    "category": "apple-music",
+    "categoryId": {
+      "$oid": "6641d2d85115f5281596eca6"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2023-11-10",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "Apple Music: Lianne La'Havas",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Custom Apple Music cover designs inspired by the 'Browse Categories' page",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/apple-music/images/apmu-lahavas.webp",
+    "imgSrcAlt": "Apple Music: Lianne La'Havas",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641e7936a9ae26435266498"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Graphic Design",
+    "category": "apple-music",
+    "categoryId": {
+      "$oid": "6641d2d85115f5281596eca6"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2023-11-10",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "Apple Music: Cleo Sol",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Custom Apple Music cover designs inspired by the 'Browse Categories' page",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/apple-music/images/apmu-cleo-sol.webp",
+    "imgSrcAlt": "Apple Music: Cleo Sol",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641e7936a9ae2643526649f"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Graphic Design",
+    "category": "apple-music",
+    "categoryId": {
+      "$oid": "6641d2d85115f5281596eca6"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2023-11-10",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "Apple Music: Robert Glasper",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Custom Apple Music cover designs inspired by the 'Browse Categories' page",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/apple-music/images/apmu-glasper.webp",
+    "imgSrcAlt": "Apple Music: Robert Glasper",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641e7936a9ae2643526649a"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Graphic Design",
+    "category": "apple-music",
+    "categoryId": {
+      "$oid": "6641d2d85115f5281596eca6"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2023-11-10",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "Apple Music: PJ Morton",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Custom Apple Music cover designs inspired by the 'Browse Categories' page",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/apple-music/images/apmu-morton.webp",
+    "imgSrcAlt": "Apple Music: PJ Morton",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641e7936a9ae26435266499"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Graphic Design",
+    "category": "apple-music",
+    "categoryId": {
+      "$oid": "6641d2d85115f5281596eca6"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2023-11-10",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "Apple Music: Fred Hammond",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Custom Apple Music cover designs inspired by the 'Browse Categories' page",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/apple-music/images/apmu-hammond.webp",
+    "imgSrcAlt": "Apple Music: Fred Hammond",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641e7936a9ae2643526649b"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Graphic Design",
+    "category": "apple-music",
+    "categoryId": {
+      "$oid": "6641d2d85115f5281596eca6"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2023-11-10",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "Apple Music: Terrace Martin",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Custom Apple Music cover designs inspired by the 'Browse Categories' page",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/apple-music/images/apmu-martin.webp",
+    "imgSrcAlt": "Apple Music: Terrace Martin",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641e7936a9ae2643526649e"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Graphic Design",
+    "category": "apple-music",
+    "categoryId": {
+      "$oid": "6641d2d85115f5281596eca6"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2023-11-10",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "Apple Music: Daniel Bostwick",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Custom Apple Music cover designs inspired by the 'Browse Categories' page",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/apple-music/images/apmu-bostwick.webp",
+    "imgSrcAlt": "Apple Music: Daniel Bostwick",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641e7936a9ae2643526649d"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Graphic Design",
+    "category": "apple-music",
+    "categoryId": {
+      "$oid": "6641d2d85115f5281596eca6"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2023-11-10",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "Apple Music: Kirk Franklin",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Custom Apple Music cover designs inspired by the 'Browse Categories' page",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/apple-music/images/apmu-franklin.webp",
+    "imgSrcAlt": "Apple Music: Kirk Franklin",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641e6916a9ae2643526648b"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "behold-the-lamb",
+    "categoryId": {
+      "$oid": "6641d24e5115f5281596eca4"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2023-12-12",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "Behold, The Lamb",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Official Flyer for 'Behold, The Lamb'",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/behold-the-lamb/images/behd-flyer-official.webp",
+    "imgSrcAlt": "Behold, The Lamb Flyer",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641e6916a9ae2643526648a"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "behold-the-lamb",
+    "categoryId": {
+      "$oid": "6641d24e5115f5281596eca4"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2023-12-12",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "Behold, The Lamb (Alternate)",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Alternate Flyer for 'Behold, The Lamb'",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/behold-the-lamb/images/behd-flyer-alternate.webp",
+    "imgSrcAlt": "Behold, The Lamb Flyer (Alternative)",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641e6f56a9ae26435266492"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "reinvigorate",
+    "categoryId": {
+      "$oid": "6641d2a95115f5281596eca5"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2024-03-12",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "Reinvigorate",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Reinvigorate!' is a 2-day seminar hosted by Centreville SDA Church's Single Adult Ministries, based in Nassau, Bahamas",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/reinvigorate/images/sdam-reinvigorate.webp",
+    "imgSrcAlt": "Reinvigorate",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "674614733e8c733b0eedf98b"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "sda-events",
+    "categoryId": {},
+    "icons": ["adobe-photoshop"],
+    "data-date": "2024-03-29",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "SDA 3-day Collaboration",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Flyer for joint event hosted by Centreville and Hillview Seventh-day Adventist Church",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/choir-collaboration/images/chor-sdacollaboration.webp",
+    "imgSrcAlt": "SDA 3-day Collaboration",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641e4196a9ae26435266463"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "foundation-of-triathletes",
+    "categoryId": {
+      "$oid": "6641d1265115f5281596eca1"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2024-04-26",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "Foundation of Tri-athletes Incorporated Promotional Flyer (Alternative)",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Promotional flyer for the Foundation of Tri-athletes Incorporated 7/3-mile Walk",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/foundation-of-triathletes/images/fota-73mile-flyer-alternative.webp",
+    "imgSrcAlt": "FoT Flyer: Alternative",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "6641e4196a9ae26435266462"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "foundation-of-triathletes",
+    "categoryId": {
+      "$oid": "6641d1265115f5281596eca1"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2024-04-26",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "Foundation of Tri-athletes Incorporated Promotional Flyer",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Promotional flyer for the Foundation of Tri-athletes Incorporated 7/3-mile Walk",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/foundation-of-triathletes/images/fota-73mile-flyer-main.webp",
+    "imgSrcAlt": "FoT Flyer: Main",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "674614733e8c733b0eedf98c"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Graphic Design",
+    "category": "foundation-of-triathletes",
+    "categoryId": {
+      "$oid": "6641d1265115f5281596eca1"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2024-04-26",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "Foundation of Tri-athletes Incorporated Promotional Coupon",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Promotional Coupon for the Foundation of Tri-athletes Incorporated 7/3-mile Walk",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/foundation-of-triathletes/images/fota-73mile-coupon.webp",
+    "imgSrcAlt": "FoT Coupon",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "674614733e8c733b0eedf98d"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "advantage",
+    "categoryId": {},
+    "icons": ["adobe-photoshop"],
+    "data-date": "2024-06-27",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "Advantage Insurance Brokers Job Posting Flyer",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Flyer promoting a job position at Advantage Insurance Brokers Ltd., Nassau, Bahamas",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/advantage/images/advt-adFlyer.webp",
+    "imgSrcAlt": "Advantage Job Posting Flyer",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "674614733e8c733b0eedf98e"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "advantage",
+    "categoryId": {},
+    "icons": ["adobe-photoshop"],
+    "data-date": "2024-06-27",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "Advantage Insurance Brokers Job Posting Flyer (Alternative)",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Alternative flyer promoting a job position at Advantage Insurance Brokers Ltd., Nassau, Bahamas",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/advantage/images/advt-adFlyer-alt.webp",
+    "imgSrcAlt": "Advantage Job Posting Flyer",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "674614733e8c733b0eedf98f"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "world-in-union",
+    "categoryId": {
+      "$oid": "6742d8800803698006a31360"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2024-07-07",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "World in Union Official Flyer",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Official Flyer for World in Union: A Multi-cultural Celebration of Praise and Divine Diversity",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/world-in-union/images/winu-flyer-3.webp",
+    "imgSrcAlt": "World in Union Official Flyer",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "674614733e8c733b0eedf990"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "world-in-union",
+    "categoryId": {
+      "$oid": "6742d8800803698006a31360"
+    },
+    "icons": ["adobe-after-effects"],
+    "data-date": "2024-07-07",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "World in Union Key Art",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Key Art for World in Union: A Multi-cultural Celebration of Praise and Divine Diversity",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/world-in-union/images/winu-keyArt.webp",
+    "imgSrcAlt": "World in Union Key Art",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "674614733e8c733b0eedf991"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "world-in-union",
+    "categoryId": {
+      "$oid": "6742d8800803698006a31360"
+    },
+    "icons": ["adobe-after-effects"],
+    "data-date": "2024-07-07",
+    "isFeatured": true,
+    "isArchived": false,
+    "title": "World in Union Key Art (Alternative)",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Alternative Key Art for World in Union: A Multi-cultural Celebration of Praise and Divine Diversity",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/world-in-union/images/winu-keyArt-alt.webp",
+    "imgSrcAlt": "World in Union Key Art Alternative",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "674614733e8c733b0eedf992"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "world-in-union",
+    "categoryId": {
+      "$oid": "6742d8800803698006a31360"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2024-07-07",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "World in Union Alternative Flyer (#1)",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Alternative Flyer for World in Union: A Multi-cultural Celebration of Praise and Divine Diversity",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/world-in-union/images/winu-flyer-2.webp",
+    "imgSrcAlt": "World in Union Alternative Flyer (#1)",
+    "fallbackImgSrc": ""
+  },
+  {
+    "_id": {
+      "$oid": "674614733e8c733b0eedf993"
+    },
+    "dataFancybox": "image-gallery",
+    "contentType": "image",
+    "itemType": "Flyer",
+    "category": "world-in-union",
+    "categoryId": {
+      "$oid": "6742d8800803698006a31360"
+    },
+    "icons": ["adobe-photoshop"],
+    "data-date": "2024-07-07",
+    "isFeatured": false,
+    "isArchived": false,
+    "title": "World in Union Alternative Flyer (#2)",
+    "subtitle": "",
+    "abbreviatedTitle": "",
+    "description": "Alternative Flyer for World in Union: A Multi-cultural Celebration of Praise and Divine Diversity",
+    "details": [],
+    "imgSrc": "https://tjg-portfolio-db.vercel.app/world-in-union/images/winu-flyer-1.webp",
+    "imgSrcAlt": "World in Union Alternative Flyer (#2)",
+    "fallbackImgSrc": ""
+  }
+]
