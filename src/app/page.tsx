@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "motion/react";
 import { Divider } from "@/components/Divider";
@@ -12,7 +12,7 @@ import ProjectGallery from "@/components/ProjectGallery";
 import ProjectGalleryMenu from "@/components/ProjectGallery/ProjectGalleryMenu";
 import { ProjectItem, CategoryTypes } from "@/components/ProjectGallery/types";
 
-export default function LandingPage() {
+function LandingPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [showGallery, setShowGallery] = useState(false);
@@ -191,5 +191,13 @@ export default function LandingPage() {
         )}
       </AnimatePresence>
     </section>
+  );
+}
+
+export default function LandingPage() {
+  return (
+    <Suspense fallback={<div className="w-full min-h-screen flex items-center justify-center">Loading...</div>}>
+      <LandingPageContent />
+    </Suspense>
   );
 }

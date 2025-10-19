@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect, useRef, Suspense } from "react";
-import { motion, AnimatePresence } from "motion/react";
+import { AnimatePresence } from "motion/react";
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
 import { ProjectItem, CategoryTypes, VideoMediaItemTypes, ProgrammingItemTypes } from "./types";
 import { ItemCategoryHeader } from "./projectGallery.categoryHeader";
@@ -12,6 +12,14 @@ import { ImageItem } from "./item.image";
 import { VideoItem } from "./item.video";
 import { ProgrammingItem } from "./item.programming";
 
+type IsotopeInstance = {
+  arrange: (options: { filter: string; transitionDuration: string }) => void;
+  layout: () => void;
+  destroy: () => void;
+};
+
+type IsotopeConstructor = new (element: HTMLElement, options: Record<string, unknown>) => IsotopeInstance;
+
 function ProjectGalleryContent() {
   const [allItems, setAllItems] = useState<ProjectItem[]>([]);
   const [categories, setCategories] = useState<Map<string, CategoryTypes>>(new Map());
@@ -20,12 +28,12 @@ function ProjectGalleryContent() {
   const [revealedImages, setRevealedImages] = useState<Set<string>>(new Set());
   const [imageDimensions, setImageDimensions] = useState<Map<string, { width: number; height: number }>>(new Map());
   const [isotopeReady, setIsotopeReady] = useState(false);
-  const [Isotope, setIsotope] = useState<any>(null);
+  const [Isotope, setIsotope] = useState<IsotopeConstructor | null>(null);
 
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const router = useRouter();
-  const isotopeRef = useRef<any>(null);
+  const isotopeRef = useRef<IsotopeInstance | null>(null);
   const gridRef = useRef<HTMLDivElement>(null);
 
   const categorySlug = searchParams.get("category");
@@ -36,7 +44,7 @@ function ProjectGalleryContent() {
   // Stops Next.js from throwing a 'window not defined' error
   useEffect(() => {
     import("isotope-layout").then((IsotopeModule) => {
-      setIsotope(() => IsotopeModule.default);
+      setIsotope(() => IsotopeModule.default as unknown as IsotopeConstructor);
     });
   }, []);
 
