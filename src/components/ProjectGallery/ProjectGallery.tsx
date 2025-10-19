@@ -4,7 +4,6 @@ import { motion, AnimatePresence } from "motion/react";
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
 import { ProjectItem, CategoryTypes, VideoMediaItemTypes, ProgrammingItemTypes } from "./types";
 import { ItemCategoryHeader } from "./projectGallery.categoryHeader";
-import ProjectGalleryMenu from "./ProjectGalleryMenu";
 import { IoRefreshCircleOutline as RefreshIcon } from "react-icons/io5";
 import { Button } from "@/components/ui/button";
 import Loader from "@/components/Loader";
@@ -12,7 +11,6 @@ import { manualProjectEntries } from "@/app/constants/manualEntries";
 import { ImageItem } from "./item.image";
 import { VideoItem } from "./item.video";
 import { ProgrammingItem } from "./item.programming";
-import Isotope from "isotope-layout";
 
 function ProjectGalleryContent() {
   const [allItems, setAllItems] = useState<ProjectItem[]>([]);
@@ -22,27 +20,42 @@ function ProjectGalleryContent() {
   const [revealedImages, setRevealedImages] = useState<Set<string>>(new Set());
   const [imageDimensions, setImageDimensions] = useState<Map<string, { width: number; height: number }>>(new Map());
   const [isotopeReady, setIsotopeReady] = useState(false);
+  const [Isotope, setIsotope] = useState<any>(null);
 
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const router = useRouter();
-  const isotopeRef = useRef<Isotope | null>(null);
+  const isotopeRef = useRef<any>(null);
   const gridRef = useRef<HTMLDivElement>(null);
 
   const categorySlug = searchParams.get("category");
   const contentType = searchParams.get("contentType");
   const categoryData = categorySlug ? Array.from(categories.values()).find((cat) => cat.slug === categorySlug) : null;
 
+
+  // Stops Next.js from throwing a 'window not defined' error
+  useEffect(() => {
+    import("isotope-layout").then((IsotopeModule) => {
+      setIsotope(() => IsotopeModule.default);
+    });
+  }, []);
+
+
   useEffect(() => {
     if (categoryData) {
       document.title = `${categoryData.abbreviatedTitle} - Projects | Digital Portfolio`;
-    } else if (contentType) {
+    } 
+    
+    else if (contentType) {
       const titles = { video: "Video Editing", image: "Graphic Design", programming: "Programming" };
       document.title = `${titles[contentType as keyof typeof titles] || "Projects"} - Projects | Digital Portfolio`;
-    } else {
+    } 
+    
+    else {
       document.title = "Projects | Digital Portfolio";
     }
   }, [categoryData, contentType]);
+
 
   useEffect(() => {
     Promise.all([fetch("/api/categories").then((res) => res.json()), fetch("/api/items").then((res) => res.json())])
@@ -55,6 +68,7 @@ function ProjectGalleryContent() {
         setAllItems([...manualProjectEntries, ...(itemsResponse?.contentData || [])]);
         setLoading(false);
       })
+
       .catch((err) => {
         console.error("Error loading data:", err);
         setError(`Unable to load data: ${err}`);
@@ -62,14 +76,15 @@ function ProjectGalleryContent() {
       });
   }, []);
 
+
   useEffect(() => {
-    if (gridRef.current && allItems.length > 0 && !loading) {
+    if (gridRef.current && allItems.length > 0 && !loading && Isotope) {
       if (isotopeRef.current) {
         isotopeRef.current.destroy();
       }
 
       setTimeout(() => {
-        if (gridRef.current) {
+        if (gridRef.current && Isotope) {
           isotopeRef.current = new Isotope(gridRef.current, {
             itemSelector: ".isotope-item",
             percentPosition: true,
@@ -95,7 +110,8 @@ function ProjectGalleryContent() {
       }
       setIsotopeReady(false);
     };
-  }, [allItems, loading]);
+  }, [allItems, loading, Isotope]);
+
 
   useEffect(() => {
     if (isotopeRef.current && isotopeReady) {
@@ -116,6 +132,7 @@ function ProjectGalleryContent() {
     }
   }, [categorySlug, contentType, isotopeReady]);
 
+
   const handleImageLoad = (itemId: string, img: HTMLImageElement) => {
     setImageDimensions((prev) => new Map(prev).set(itemId, { width: img.naturalWidth, height: img.naturalHeight }));
     setTimeout(() => {
@@ -124,19 +141,22 @@ function ProjectGalleryContent() {
     }, 100);
   };
 
+
   const updateParams = (updates: Record<string, string | null>) => {
     const params = new URLSearchParams(searchParams);
     Object.entries(updates).forEach(([key, value]) => (value ? params.set(key, value) : params.delete(key)));
     router.push(`${pathname}?${params.toString()}`);
   };
 
-  if (loading) {
+
+  if (loading || !Isotope) {
     return (
       <div className="w-full h-full flex items-center justify-center">
         <Loader text="Loading gallery..." />
       </div>
     );
   }
+
 
   if (error) {
     return (
@@ -153,13 +173,14 @@ function ProjectGalleryContent() {
     );
   }
 
+
   return (
     <div className="px-20 pb-20 pt-10 min-h-screen flex flex-col relative">
       <AnimatePresence mode="wait">
         {categorySlug && categoryData && <ItemCategoryHeader key={categorySlug} category={categoryData} onBack={() => updateParams({ category: null, contentType: null })} />}
       </AnimatePresence>
 
-      <div ref={gridRef} className="w-full" style={{ opacity: isotopeReady ? 1 : 0, transition: "opacity 0.3s" }}>
+      <div ref={gridRef} className="w-full pb-24" style={{ opacity: isotopeReady ? 1 : 0, transition: "opacity 0.3s" }}>
         <div className="isotope-sizer w-full sm:w-1/2 lg:w-1/3"></div>
         {allItems.map((item, index) => {
           const itemId = typeof item._id === "string" ? item._id : item._id.$oid;
@@ -210,27 +231,10 @@ function ProjectGalleryContent() {
           return null;
         })}
       </div>
-
-      <AnimatePresence>
-        {pathname === "/projects" && (
-          <motion.div
-            initial={{ y: 100, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            exit={{ y: 100, opacity: 0 }}
-            transition={{ type: "spring", damping: 25, stiffness: 200, duration: 0.6 }}
-            className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50 pointer-events-auto w-[1440px] max-w-[80%]">
-            <ProjectGalleryMenu
-              allItems={allItems}
-              categories={categories}
-              onCategorySelect={(slug) => updateParams({ category: slug || null, contentType: null })}
-              onContentTypeSelect={(type) => updateParams({ category: null, contentType: type || null })}
-            />
-          </motion.div>
-        )}
-      </AnimatePresence>
     </div>
   );
 }
+
 
 export default function ProjectGallery() {
   return (

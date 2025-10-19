@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { useRouter, usePathname } from "next/navigation";
+import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { ProjectItem, CategoryTypes } from "./types";
 import {
   Menubar,
@@ -16,7 +16,7 @@ import {
 } from "@/components/ui/menubar";
 import { FaGlobe, FaPlay, FaImage, FaPalette, FaVideo, FaCode } from "react-icons/fa6";
 import { IconType } from "react-icons";
-import { FaInfoCircle } from "react-icons/fa";
+import { FaHome, FaInfoCircle } from "react-icons/fa";
 import ProjectGalleryInfoModal from "./projectGallery.infoModal";
 
 type CategoryGroup = {
@@ -54,18 +54,20 @@ const DEFAULT_CATEGORIES: DefaultCategory[] = [
     icon: FaCode,
     contentTypes: ["programming"],
     itemTypeIcons: {
-      "Website": FaGlobe,
+      Website: FaGlobe,
       "Web Application": FaGlobe,
-      "Code": FaCode,
-      "Other": FaCode,
+      Code: FaCode,
+      Other: FaCode,
     },
     iconPriority: [FaGlobe, FaCode],
   },
 ];
 
+
 function matchesDefaultCategory(item: ProjectItem, defaultCategory: DefaultCategory): boolean {
   return defaultCategory.contentTypes.includes(item.contentType || "");
 }
+
 
 function determineDefaultCategories(items: ProjectItem[]) {
   const result: Record<string, boolean> = {};
@@ -74,6 +76,7 @@ function determineDefaultCategories(items: ProjectItem[]) {
   });
   return result;
 }
+
 
 function getPrimaryCategoryIcon(items: ProjectItem[], defaultCategoryKey: string): IconType {
   const defaultCategory = DEFAULT_CATEGORIES.find((dc) => dc.key === defaultCategoryKey);
@@ -105,6 +108,7 @@ function getPrimaryCategoryIcon(items: ProjectItem[], defaultCategoryKey: string
   return defaultCategory.icon;
 }
 
+
 function DefaultCategoryIcons({ categories, items }: { categories: Record<string, boolean>; items: ProjectItem[] }) {
   return (
     <span className="flex items-center gap-1 pr-1 flex-shrink-0">
@@ -117,6 +121,7 @@ function DefaultCategoryIcons({ categories, items }: { categories: Record<string
   );
 }
 
+
 function getIconForItemType(itemType: string, defaultCategory: DefaultCategory): IconType {
   if (!defaultCategory.itemTypeIcons) return defaultCategory.icon;
   const itemTypeLower = itemType.toLowerCase();
@@ -127,6 +132,7 @@ function getIconForItemType(itemType: string, defaultCategory: DefaultCategory):
   }
   return defaultCategory.icon;
 }
+
 
 function getUniqueItemTypes(items: ProjectItem[], defaultCategoryKey: string): Array<{ type: string; icon: IconType }> {
   const defaultCategory = DEFAULT_CATEGORIES.find((dc) => dc.key === defaultCategoryKey);
@@ -146,6 +152,7 @@ function getUniqueItemTypes(items: ProjectItem[], defaultCategoryKey: string): A
     icon: getIconForItemType(type, defaultCategory),
   }));
 }
+
 
 function renderCategoryMenuItems(
   categories: Record<string, boolean>,
@@ -183,6 +190,7 @@ function renderCategoryMenuItems(
   });
 }
 
+
 function ProjectMenu({
   category,
   onCategorySelect,
@@ -214,6 +222,7 @@ function ProjectMenu({
     </MenubarMenu>
   );
 }
+
 
 function MoreMenu({
   projectCategories,
@@ -265,6 +274,7 @@ function MoreMenu({
   );
 }
 
+
 export default function ProjectGalleryMenu({
   categories,
   onCategorySelect,
@@ -277,9 +287,12 @@ export default function ProjectGalleryMenu({
 }) {
   const router = useRouter();
   const pathname = usePathname();
+  const searchParams = useSearchParams();
   const [projectCategories, setProjectCategories] = useState<CategoryGroup[]>([]);
   const [allItemsForMenu, setAllItemsForMenu] = useState<ProjectItem[]>([]);
   const [isInfoModalOpen, setIsInfoModalOpen] = useState(false);
+
+  const isGalleryView = searchParams.get("view") === "gallery";
 
   useEffect(() => {
     fetch("/api/items")
@@ -325,7 +338,7 @@ export default function ProjectGalleryMenu({
   }, [allItemsForMenu, categories]);
 
   const handleCategoryAndContentSelect = (categorySlug: string, contentType: string) => {
-    const params = new URLSearchParams();
+    const params = new URLSearchParams(searchParams);
     params.set("category", categorySlug);
     params.set("contentType", contentType);
     router.push(`${pathname}?${params.toString()}`);
@@ -342,6 +355,13 @@ export default function ProjectGalleryMenu({
               <FaInfoCircle />
             </MenubarTrigger>
           </MenubarMenu>
+          {isGalleryView && (
+            <MenubarMenu>
+              <MenubarTrigger className="flex items-center gap-1 flex-shrink-0 whitespace-nowrap" onClick={() => router.push("/")}>
+                <FaHome className="size-3" /> Home
+              </MenubarTrigger>
+            </MenubarMenu>
+          )}
           <MenubarMenu>
             <MenubarTrigger className="flex items-center gap-1 flex-shrink-0 whitespace-nowrap" onClick={() => onContentTypeSelect("video")}>
               <FaVideo className="size-3" /> Video Editing
