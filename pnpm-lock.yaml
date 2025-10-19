@@ -32,9 +32,6 @@ importers:
       isotope-layout:
         specifier: ^3.0.6
         version: 3.0.6
-      masonry-layout:
-        specifier: ^4.2.2
-        version: 4.2.2
       mongoose:
         specifier: ^8.18.1
         version: 8.18.1
@@ -56,9 +53,6 @@ importers:
       react-icons:
         specifier: ^5.5.0
         version: 5.5.0(react@19.1.0)
-      react-masonry-css:
-        specifier: ^1.0.16
-        version: 1.0.16(react@19.1.0)
       tailwind-merge:
         specifier: ^3.3.1
         version: 3.3.1
@@ -72,6 +66,9 @@ importers:
       '@tailwindcss/postcss':
         specifier: ^4
         version: 4.1.13
+      '@types/isotope-layout':
+        specifier: ^3.0.15
+        version: 3.0.15
       '@types/node':
         specifier: ^20
         version: 20.19.17
@@ -945,6 +942,9 @@ packages:
 
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
+
+  '@types/isotope-layout@3.0.15':
+    resolution: {integrity: sha512-8vMLUq+7GqH/5ZcSeOmN9zMcTWud3o0AQRENigawkuOaPJUgsl4Hcq5QsRV9F2y7cUDHa5zs0Y8DZLzPqoPytw==}
 
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
@@ -2820,11 +2820,6 @@ packages:
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  react-masonry-css@1.0.16:
-    resolution: {integrity: sha512-KSW0hR2VQmltt/qAa3eXOctQDyOu7+ZBevtKgpNDSzT7k5LA/0XntNa9z9HKCdz3QlxmJHglTZ18e4sX4V8zZQ==}
-    peerDependencies:
-      react: '>=16.0.0'
-
   react-remove-scroll-bar@2.3.8:
     resolution: {integrity: sha512-9r+yi9+mgU33AKcj6IbT9oRCO78WriSj6t/cF8DWBZJ9aOGPOTEDvdUDz1FwKim7QXWwmHqtdHnRJfhAxEG46Q==}
     engines: {node: '>=10'}
@@ -4100,6 +4095,8 @@ snapshots:
     optional: true
 
   '@types/estree@1.0.8': {}
+
+  '@types/isotope-layout@3.0.15': {}
 
   '@types/json-schema@7.0.15': {}
 
@@ -6082,10 +6079,6 @@ snapshots:
       react: 19.1.0
 
   react-is@16.13.1: {}
-
-  react-masonry-css@1.0.16(react@19.1.0):
-    dependencies:
-      react: 19.1.0
 
   react-remove-scroll-bar@2.3.8(@types/react@19.1.13)(react@19.1.0):
     dependencies:

@@ -18,7 +18,6 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "isotope-layout": "^3.0.6",
-    "masonry-layout": "^4.2.2",
     "mongoose": "^8.18.1",
     "motion": "^12.23.16",
     "next": "15.5.3",
@@ -26,13 +25,13 @@
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-icons": "^5.5.0",
-    "react-masonry-css": "^1.0.16",
     "tailwind-merge": "^3.3.1",
     "vercel": "^48.2.9"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "@types/isotope-layout": "^3.0.15",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
