@@ -62,7 +62,7 @@ export const icons: Record<
     displayName: "Svelte",
   },
   "nextjs": {
-    src: featuredIcons.nextjs,
+    src: featuredIcons.nextjsDark,
     displayName: "Next.js",
   },
   "html": {
