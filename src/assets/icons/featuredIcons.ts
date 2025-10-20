@@ -21,6 +21,9 @@ import react from "./react.png";
 import svelte from "./svelte.png"
 import nextjs from "./nextjs.png"
 import nextjsDark from "./nextjs-dark.png"
+import mantine from "./mantine.png"
+import shadcn from "./shadcn.png"
+import shadcnDark from "./shadcn-dark.png"
 
 // Programming Languages //
 import html from "./html5.png"; // except this one
@@ -51,6 +54,9 @@ export const featuredIcons = {
   svelte,
   nextjs,
   nextjsDark,
+  mantine,
+  shadcn,
+  shadcnDark,
 
   html,
   htmlDark,

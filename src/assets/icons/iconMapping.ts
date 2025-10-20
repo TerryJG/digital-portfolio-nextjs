@@ -65,6 +65,14 @@ export const icons: Record<
     src: featuredIcons.nextjsDark,
     displayName: "Next.js",
   },
+  "mantine": {
+    src: featuredIcons.mantine,
+    displayName: "Mantine",
+  },
+  "shadcn": {
+    src: featuredIcons.shadcnDark,
+    displayName: "shadcn/ui",
+  },
   "html": {
     src: featuredIcons.htmlDark,
     displayName: "HTML",
